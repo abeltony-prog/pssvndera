@@ -177,11 +177,7 @@
     <!--main content end-->
   </section>
   <!-- container section start -->
-  <?php
-}else {
-  echo "<script>window.open('login.php', '_self')</script>";
-}
- ?>
+
   <!-- javascripts -->
   <script src="js/jquery.js"></script>
   <script src="js/jquery-ui-1.10.4.min.js"></script>
@@ -270,5 +266,9 @@
     </script>
 
 </body>
-
+<?php
+}else {
+echo "<script>window.open('login.php', '_self')</script>";
+}
+?>
 </html>
